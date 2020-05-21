@@ -11,7 +11,6 @@ export default function CardData(props) {
       )
       .then((response) => {
         console.log(response.data);
-        // console.log(data);
         setData(response.data);
       })
       .catch((error) => {
