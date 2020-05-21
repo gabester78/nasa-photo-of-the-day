@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import CardData from "./Components/CardData";
+import CardData from "./Components/cardData";
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import CardStyling from "./CardStyling";
+import CardStyling from "./cardStyling";
 
 export default function CardData(props) {
   const [data, setData] = useState([]);
